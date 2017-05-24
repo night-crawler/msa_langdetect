@@ -1,0 +1,12 @@
+client/.tmp/
+node_modules/
+.tmp/
+.git/
+.idea/
+__pycache__
+.bumpversion.cfg
+build.sh
+docker-compose.production.yml
+docker-compose.dev.yml
+.ash_history
+/core

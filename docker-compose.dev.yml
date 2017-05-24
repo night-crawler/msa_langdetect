@@ -1,0 +1,11 @@
+version: '2'
+services:
+  web:
+     build: .
+     image: ncrawler/msa_langdetect-dev
+     container_name: msa_langdetect_dev
+     command: runserver
+     volumes:
+       - .:/application/msa_langdetect
+     ports:
+       - "21021:21021"
